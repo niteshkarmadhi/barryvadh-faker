@@ -1,0 +1,12 @@
+{
+    "name": "barryvadh/laravel-faker",
+    "autoload": {
+        "files": [
+			"src/routes.php"
+		],
+        "psr-4": {
+            "Barryvadh\\LaravelFaker\\": "src/"
+        }
+    },
+    "require": {}
+}
