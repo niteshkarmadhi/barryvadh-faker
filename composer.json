@@ -12,5 +12,6 @@
     "prefer-stable": true,
     "require": {
         "barryvadh-faker/laravel-faker": "dev-master"
-    }
+    },
+    "license": "MIT"
 }
