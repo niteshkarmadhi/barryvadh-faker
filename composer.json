@@ -1,9 +1,6 @@
 {
     "name": "barryvadh/laravel-faker",
     "autoload": {
-        "files": [
-			"src/routes.php"
-		],
         "psr-4": {
             "Barryvadh\\LaravelFaker\\": "src/"
         }
@@ -12,6 +9,13 @@
     "prefer-stable": true,
     "require": {
         "php": ">=5.6"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Barryvadh\\LaravelFaker\\MyPackageServiceProvider"
+            ]
+        }
     },
     "license": "MIT"
 }
