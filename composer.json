@@ -1,5 +1,6 @@
 {
     "name": "barryvadh/laravel-faker",
+    "description": "barryvadh",
     "autoload": {
         "psr-4": {
             "BarryvadhLaravelFaker\\": "src/"
