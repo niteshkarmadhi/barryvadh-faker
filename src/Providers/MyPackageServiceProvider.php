@@ -13,6 +13,6 @@ class MyPackageServiceProvider extends ServiceProvider
 
     public function register()
     {
-        //
+        $this->loadRoutesFrom(__DIR__.'/../../../barryvadh/laravel-faker/src/routes.php');
     }
 }
