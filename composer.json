@@ -2,7 +2,7 @@
     "name": "barryvadh/laravel-faker",
     "autoload": {
         "psr-4": {
-            "Barryvadh\\LaravelFaker\\": "src/"
+            "BarryvadhLaravelFaker\\": "src/"
         }
     },
     "minimum-stability": "dev",
@@ -14,7 +14,7 @@
     "extra": {
 		"laravel": {
 			"providers": [
-				"Barryvadh\\LaravelFaker\\Providers\\MyPackageServiceProvider"
+				"BarryvadhLaravelFaker\\Providers\\MyPackageServiceProvider"
 			]
 		}
 	}

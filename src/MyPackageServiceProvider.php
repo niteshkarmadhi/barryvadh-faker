@@ -1,6 +1,6 @@
 <?php
 
-namespace Barryvadh\Providers\LaravelFaker;
+namespace BarryvadhLaravelFaker\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
