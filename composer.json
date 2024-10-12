@@ -10,12 +10,12 @@
     "require": {
         "php": ">=5.6"
     },
+    "license": "MIT",
     "extra": {
-        "laravel": {
-            "providers": [
-                "Barryvadh\\LaravelFaker\\MyPackageServiceProvider"
-            ]
-        }
-    },
-    "license": "MIT"
+		"laravel": {
+			"providers": [
+				"Barryvadh\\LaravelFaker\\Providers\\MyPackageServiceProvider"
+			]
+		}
+	}
 }
